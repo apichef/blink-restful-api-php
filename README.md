@@ -10,7 +10,7 @@ A simple books API
   - title
     
 - Author
-    - name
+  - name
 
 ## Relationships
 - `Book` belongs to a `Genre` : `Genre` has many `Book`
@@ -18,3 +18,19 @@ A simple books API
 
 ## Ingredients
 - Laravel 8
+
+## Topics
+- [ ] Richardson Maturity Model
+- [ ] Build level 2 API
+  - [ ] Resources
+  - [ ] HTTP verbs
+  - [ ] HTTP status codes
+- [ ] Hypermedia Controls
+- [ ] Content negotiation
+- [ ] Handling complex query
+  - [ ] Inclusion of related resources
+  - [ ] Sparse field sets
+  - [ ] Sorting
+  - [ ] Filtering
+  - [ ] Pagination
+    
